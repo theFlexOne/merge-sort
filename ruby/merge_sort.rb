@@ -1,10 +1,15 @@
+require "pry"
+
 def merge(arr1, arr2)
   # type your code in here
 end
 
 def merge_sort(arr)
-  # type your code in here
+  half = (arr.size.to_f / 2).ceil
+  puts half
 end
+
+binding.pry
 
 if __FILE__ == $PROGRAM_NAME
   puts "Expecting: [1, 2]"
